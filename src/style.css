@@ -1,0 +1,65 @@
+/*estilo da tarefa concluida*/
+.feito{
+    text-decoration: line-through;
+    color: red;
+}
+
+/*geral*/
+body{
+    background-color: #ede7f6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1{
+    margin-top: 5%;
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+}
+
+.container{
+    width: 80vw;
+}
+
+.add{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #b39ddb;
+    padding: 2%;
+    border-radius: 10px;
+    margin: 1% auto;
+}
+
+.add input{
+    flex-grow: 1;
+}
+
+
+.add button{
+    text-transform: uppercase;
+    font-size: .7rem;
+    background-color: #fff;
+    border: 1px solid #a9a9a9;
+    border-radius: 5px;
+    padding: 2%;
+    margin-left: 2%;
+}
+
+.add button:hover{
+    cursor: pointer;
+    background-color: #e2e2e2;
+}
+
+li:hover{
+    cursor: pointer;
+}
+
+@media screen and (min-width: 600px) {
+    .container{
+        width: 40vw;
+    }
+}
